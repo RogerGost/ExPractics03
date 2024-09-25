@@ -30,6 +30,7 @@ namespace ExPractics03
             
         {
             TextBlock newText = new TextBlock();
+            boto1.Content = "Mona Lisa";
             newText.TextWrapping = TextWrapping.Wrap;
             newText.Text = "El retrato de Lisa Gherardini, esposa de Francesco del Giocondo, más conocido como La Gioconda " +
                              "(La Joconde en francés) o Monna Lisa, es una obra pictórica del polímata renacentista italiano Leonardo da Vinci. " +
@@ -43,6 +44,7 @@ namespace ExPractics03
         private void Reset_Click(object sender, RoutedEventArgs e)
         {
             boto2.IsEnabled = true;
+            boto1.Content = "La Noche Estrellada";
             TextBlock originalText = new TextBlock();
             originalText.TextWrapping = TextWrapping.Wrap;
             originalText.Text = "La noche estrellada es un óleo sobre lienzo del pintor postimpresionista neerlandés Vincent van Gogh."+

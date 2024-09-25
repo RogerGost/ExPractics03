@@ -11,14 +11,14 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <Button Name="boto1" Content="Canviar text" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top"
-                Height="109" Width="211" Click="MostrarLable_Click" Background="LightYellow" FontSize="20" FontWeight="Bold"/>
+        <Button Name="boto1" Content="La Noche Estrellada" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"
+        Height="109" Width="211" Click="MostrarLable_Click" Background="LightYellow" FontSize="20" FontWeight="Bold"/>
 
-        <Button Name="boto2" Content="Missatge" HorizontalAlignment="Left" Margin="10,295,0,0" VerticalAlignment="Top" Height="105"
-                Width="211" Click="ActivarMissatge_Click" Background="LightYellow" FontSize="20" FontWeight="Bold"/>
+        <Button Name="boto2" Content="Missatge" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Height="105"
+        Width="211" Click="ActivarMissatge_Click" Background="LightYellow" FontSize="20" FontWeight="Bold"/>
 
-        <Button Name="boto3" Content="Reset" HorizontalAlignment="Left" Height="108" Margin="10,0,0,0" VerticalAlignment="Center"
-                Width="211" Click="Reset_Click" Background="LightYellow" FontSize="20" FontWeight="Bold"/>
+        <Button Name="boto3" Content="Reset" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Height="108"
+        Width="211" Click="Reset_Click" Background="LightYellow" FontSize="20" FontWeight="Bold"/>
 
         <Label Name="canviarText" HorizontalAlignment="Left" Margin="253,68,0,0" VerticalAlignment="Top" Height="125" Width="517" FontSize="13" FontWeight="Bold">
             <TextBlock TextWrapping="Wrap" Height="115">
@@ -28,8 +28,8 @@
             </TextBlock>
         </Label>
 
-        <Image Name="nocheEstrellada" Source="nocheEstrellada.jpg" Margin="503,173,60,86"/>
-        <Image Name="monaLisa" Source="monalisa.jpg" Margin="282,172,404,86" Visibility="Collapsed"/>
+        <Image Name="nocheEstrellada" Source="nocheEstrellada.jpg" Margin="393,172,170,86"/>
+        <Image Name="monaLisa" Source="monalisa.jpg" Margin="455,172,231,86" Visibility="Collapsed"/>
 
 
     </Grid>
