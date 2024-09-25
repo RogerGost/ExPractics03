@@ -1,0 +1,33 @@
+﻿<Window x:Class="ExPractics03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExPractics03"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="boto1" Content="Canviar text" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top"
+                Height="109" Width="211" Click="MostrarLable_Click"/>
+        
+        <Button Name="boto2" Content="Missatge" HorizontalAlignment="Left" Margin="10,295,0,0" VerticalAlignment="Top" Height="105"
+                Width="211" Click="ActivarMissatge_Click"/>
+        
+        <Button Name="boto3" Content="Reset" HorizontalAlignment="Left" Height="108" Margin="10,0,0,0" VerticalAlignment="Center"
+                Width="211" Click="Reset_Click"/>
+
+        <Label Name="canviarText" HorizontalAlignment="Left" Margin="249,30,0,0" VerticalAlignment="Top" Height="100" Width="508">
+            <TextBlock TextWrapping="Wrap">
+        La noche estrellada es un óleo sobre lienzo del pintor postimpresionista neerlandés Vincent van Gogh. 
+        Pintado en junio de 1889, representa la vista desde la ventana orientada al este de su habitación 
+        de asilo en Saint-Rémy-de-Provence, justo antes del amanecer, con la adición de un pueblo imaginario.
+            </TextBlock>
+        </Label>
+        
+
+    </Grid>
+</Window>
