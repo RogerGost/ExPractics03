@@ -12,22 +12,25 @@
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <Button Name="boto1" Content="Canviar text" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top"
-                Height="109" Width="211" Click="MostrarLable_Click"/>
-        
-        <Button Name="boto2" Content="Missatge" HorizontalAlignment="Left" Margin="10,295,0,0" VerticalAlignment="Top" Height="105"
-                Width="211" Click="ActivarMissatge_Click"/>
-        
-        <Button Name="boto3" Content="Reset" HorizontalAlignment="Left" Height="108" Margin="10,0,0,0" VerticalAlignment="Center"
-                Width="211" Click="Reset_Click"/>
+                Height="109" Width="211" Click="MostrarLable_Click" Background="LightYellow" FontSize="20" FontWeight="Bold"/>
 
-        <Label Name="canviarText" HorizontalAlignment="Left" Margin="249,30,0,0" VerticalAlignment="Top" Height="100" Width="508">
-            <TextBlock TextWrapping="Wrap">
+        <Button Name="boto2" Content="Missatge" HorizontalAlignment="Left" Margin="10,295,0,0" VerticalAlignment="Top" Height="105"
+                Width="211" Click="ActivarMissatge_Click" Background="LightYellow" FontSize="20" FontWeight="Bold"/>
+
+        <Button Name="boto3" Content="Reset" HorizontalAlignment="Left" Height="108" Margin="10,0,0,0" VerticalAlignment="Center"
+                Width="211" Click="Reset_Click" Background="LightYellow" FontSize="20" FontWeight="Bold"/>
+
+        <Label Name="canviarText" HorizontalAlignment="Left" Margin="253,68,0,0" VerticalAlignment="Top" Height="125" Width="517" FontSize="13" FontWeight="Bold">
+            <TextBlock TextWrapping="Wrap" Height="115">
         La noche estrellada es un óleo sobre lienzo del pintor postimpresionista neerlandés Vincent van Gogh. 
         Pintado en junio de 1889, representa la vista desde la ventana orientada al este de su habitación 
         de asilo en Saint-Rémy-de-Provence, justo antes del amanecer, con la adición de un pueblo imaginario.
             </TextBlock>
         </Label>
-        
+
+        <Image Name="nocheEstrellada" Source="nocheEstrellada.jpg" Margin="503,173,60,86"/>
+        <Image Name="monaLisa" Source="monalisa.jpg" Margin="282,172,404,86" Visibility="Collapsed"/>
+
 
     </Grid>
 </Window>

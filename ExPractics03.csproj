@@ -8,4 +8,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="monalisa.jpg" />
+    <None Remove="nocheEstrellada.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="monalisa.jpg" />
+    <Resource Include="nocheEstrellada.jpg" />
+  </ItemGroup>
+
 </Project>

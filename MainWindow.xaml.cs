@@ -35,6 +35,8 @@ namespace ExPractics03
                              "(La Joconde en francés) o Monna Lisa, es una obra pictórica del polímata renacentista italiano Leonardo da Vinci. " +
                              "Fue adquirida por el rey Francisco I de Francia a comienzos del siglo XVI.";
             boto2.IsEnabled = false;
+            nocheEstrellada.Visibility = Visibility.Collapsed;
+            monaLisa.Visibility = Visibility.Visible;
 
             canviarText.Content = newText;
         }
@@ -47,6 +49,9 @@ namespace ExPractics03
                                     "Pintado en junio de 1889, representa la vista desde la ventana orientada al este de su habitación" +
                                     "de asilo en Saint-Rémy - de - Provence, justo antes del amanecer, con la adición de un pueblo imaginario.";
             canviarText.Content = originalText;
+            nocheEstrellada.Visibility = Visibility.Visible;
+            monaLisa.Visibility = Visibility.Collapsed;
+
         }
 
 
